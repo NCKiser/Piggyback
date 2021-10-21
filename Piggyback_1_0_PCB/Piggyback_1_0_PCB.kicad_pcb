@@ -43,7 +43,7 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
-    (grid_origin 83.975 83.34375)
+    (grid_origin 85.725 76.2)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -1889,7 +1889,7 @@
 
   (footprint "LOGO" (layer "B.Cu")
     (tedit 0) (tstamp 2c6df341-9e9a-4df7-b36b-e5a0cdeb824d)
-    (at 85.5625 80.9625 180)
+    (at 85.725 81.75625 180)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -6132,6 +6132,9 @@
   (gr_line (start 73.81875 78.58125) (end 73.81875 69.05625) (layer "Edge.Cuts") (width 0.05) (tstamp e332a7d5-dc72-4e6c-b433-f34b65729671))
   (gr_line (start 97.63125 78.58125) (end 102.39375 83.34375) (layer "Edge.Cuts") (width 0.05) (tstamp e9b9fa02-4815-4751-9c18-aaa785a5df19))
   (gr_line (start 92.86875 78.58125) (end 92.86875 69.05625) (layer "Edge.Cuts") (width 0.05) (tstamp f6852369-41cd-4508-872f-cffd439af83f))
+  (gr_text "github.com/NCKiser/Piggyback_1.0" (at 85.725 85.725) (layer "B.SilkS") (tstamp b261d5ea-96e6-4f34-a2ed-7e674a09f0f8)
+    (effects (font (size 1.5 1.2) (thickness 0.25)) (justify mirror))
+  )
   (gr_text "D+ D-" (at 109.694408 86.171253 270) (layer "F.SilkS") (tstamp 07809009-f916-4e18-92ac-19467832cc1a)
     (effects (font (size 1 0.6) (thickness 0.15)))
   )
