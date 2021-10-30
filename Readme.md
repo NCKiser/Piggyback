@@ -10,6 +10,4 @@ Piggyback features ESD protection on the USB data lines, as well as a 500mA rese
 
 To use the Piggyback in your PCB designs, (load and place the symbol and footprint in your schematic and PCB), and wire it up to your USB port and key matrix. If you are using a USB-C connector, you will need to take care of the CC pins on your own (usually with 5.1k resistors to ground).
 
-PiggybackBT is based on the Kikoto bluetooth pro-micro board, source for that can be found here: https://github.com/zhiayang/mikoto
-
 This is open-source, as long as you give credit, and is free for commercial use. You can make, modify, and sell this board as you please, as long as you do not claim to own the copyright.
