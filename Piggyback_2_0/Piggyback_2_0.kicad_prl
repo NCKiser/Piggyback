@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 44,
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -33,7 +33,6 @@
       3,
       4,
       5,
-      6,
       8,
       9,
       10,
@@ -63,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "000be00_80000001",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Piggyback_1_0_PCB.kicad_prl",
+    "filename": "Piggyback_2_0.kicad_prl",
     "version": 3
   },
   "project": {
