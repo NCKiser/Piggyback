@@ -3264,9 +3264,9 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 24.765 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 014c62c2-d89f-4b54-8ac9-56b0059b93b5)
-    (property "Reference" "J?" (id 0) (at 24.765 12.7 0))
+    (property "Reference" "J3" (id 0) (at 24.765 12.7 0))
     (property "Value" "USB_C_Receptacle_USB2.0" (id 1) (at 24.765 15.24 0))
-    (property "Footprint" "" (id 2) (at 28.575 35.56 0)
+    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (id 2) (at 28.575 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (id 3) (at 28.575 35.56 0)
@@ -3571,7 +3571,7 @@
   (symbol (lib_id "power:GND") (at 17.145 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2f2983a3-00eb-42cf-a5e2-71976d1056e7)
-    (property "Reference" "#PWR?" (id 0) (at 17.145 64.77 0)
+    (property "Reference" "#PWR0132" (id 0) (at 17.145 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 17.145 62.9825 0))
@@ -3605,7 +3605,7 @@
   (symbol (lib_id "power:VBUS") (at 41.91 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 31ab2b57-8f5d-4e2e-a5c8-3811c5e454f9)
-    (property "Reference" "#PWR?" (id 0) (at 41.91 24.13 0)
+    (property "Reference" "#PWR0133" (id 0) (at 41.91 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (id 1) (at 41.91 15.24 0))
@@ -3637,7 +3637,7 @@
   (symbol (lib_id "Device:R_Small") (at 46.355 25.4 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 406b2cdf-568a-46c5-a9e3-4643a821261e)
-    (property "Reference" "R?" (id 0) (at 46.355 19.685 90))
+    (property "Reference" "R1" (id 0) (at 46.355 19.685 90))
     (property "Value" "5.1k" (id 1) (at 46.355 22.225 90))
     (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (id 2) (at 46.355 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3686,7 +3686,7 @@
   (symbol (lib_id "power:GND") (at 24.765 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4c1ee9f1-4135-46ad-aa8d-0ab60d5cedca)
-    (property "Reference" "#PWR?" (id 0) (at 24.765 64.77 0)
+    (property "Reference" "#PWR0128" (id 0) (at 24.765 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 24.765 62.9825 0))
@@ -4060,21 +4060,6 @@
     (pin "1" (uuid aa9aa8a8-ef5b-444a-a434-e88ea7d1afdc))
   )
 
-  (symbol (lib_id "marbastlib-mx:MX_SW_solder") (at 260.35 38.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 767f7e9c-b68e-472d-8fa5-82b3b8ef8b0a)
-    (property "Reference" "SW4" (id 0) (at 260.35 30.48 0))
-    (property "Value" "MX_SW_solder" (id 1) (at 260.35 33.02 0))
-    (property "Footprint" "marbastlib-mx:SW_MX_1u" (id 2) (at 260.35 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 260.35 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 44e32106-927c-4612-8400-83cf8ee44a34))
-    (pin "2" (uuid 6a355587-358e-4cdc-9bb2-6ddae32b9af8))
-  )
-
   (symbol (lib_id "marbastlib-mx:MX_SW_solder") (at 247.65 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 769076f8-32b0-4961-95ca-e1806dceba4d)
@@ -4191,7 +4176,7 @@
   (symbol (lib_id "power:GND") (at 56.515 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8ccfc5c5-3e20-4dd1-96e9-cca25a1b5cb8)
-    (property "Reference" "#PWR?" (id 0) (at 56.515 34.29 0)
+    (property "Reference" "#PWR0134" (id 0) (at 56.515 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 56.515 32.5025 0))
@@ -4638,7 +4623,7 @@
   (symbol (lib_id "Device:R_Small") (at 52.07 27.94 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d9dcb168-02e7-4d7e-98ed-17cc01d4f5dc)
-    (property "Reference" "R?" (id 0) (at 52.07 19.685 90))
+    (property "Reference" "R2" (id 0) (at 52.07 19.685 90))
     (property "Value" "5.1k" (id 1) (at 52.07 22.225 90))
     (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (id 2) (at 52.07 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4901,6 +4886,9 @@
     (path "/e7fb93ec-2392-4206-856d-b96d275ff39d"
       (reference "#PWR0127") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/4c1ee9f1-4135-46ad-aa8d-0ab60d5cedca"
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00a41387-b5d8-4760-85a4-7bf5300fde6d"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
@@ -4911,16 +4899,13 @@
       (reference "#PWR0131") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/2f2983a3-00eb-42cf-a5e2-71976d1056e7"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
     )
     (path "/31ab2b57-8f5d-4e2e-a5c8-3811c5e454f9"
-      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
-    )
-    (path "/4c1ee9f1-4135-46ad-aa8d-0ab60d5cedca"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0133") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/8ccfc5c5-3e20-4dd1-96e9-cca25a1b5cb8"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
     )
     (path "/8acb6e40-3b01-4431-90ed-9f22e88bb5e9"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0201_0603Metric")
@@ -4985,11 +4970,17 @@
     (path "/9b10e152-74c1-481b-b6dd-275c8fbcd978"
       (reference "J2") (unit 1) (value "Conn_01x23_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical")
     )
+    (path "/014c62c2-d89f-4b54-8ac9-56b0059b93b5"
+      (reference "J3") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+    )
     (path "/5b992abf-0eef-4e4a-8ef0-91281e9e2f89"
       (reference "J5") (unit 1) (value "Conn_01x06_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
-    (path "/014c62c2-d89f-4b54-8ac9-56b0059b93b5"
-      (reference "J?") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "")
+    (path "/406b2cdf-568a-46c5-a9e3-4643a821261e"
+      (reference "R1") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0201_0603Metric")
+    )
+    (path "/d9dcb168-02e7-4d7e-98ed-17cc01d4f5dc"
+      (reference "R2") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
     (path "/df4ca726-ff40-4d14-95f1-a69de47fd2b3"
       (reference "R3") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0201_0603Metric")
@@ -5009,12 +5000,6 @@
     (path "/497f5757-f440-4c0f-b302-0d022b4c09a8"
       (reference "R8") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
-    (path "/406b2cdf-568a-46c5-a9e3-4643a821261e"
-      (reference "R?") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0201_0603Metric")
-    )
-    (path "/d9dcb168-02e7-4d7e-98ed-17cc01d4f5dc"
-      (reference "R?") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0201_0603Metric")
-    )
     (path "/f5969a71-3469-48ba-853a-083359dc42e0"
       (reference "SW1") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
@@ -5023,9 +5008,6 @@
     )
     (path "/769076f8-32b0-4961-95ca-e1806dceba4d"
       (reference "SW3") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
-    )
-    (path "/767f7e9c-b68e-472d-8fa5-82b3b8ef8b0a"
-      (reference "SW4") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
     )
     (path "/73c8dbd2-1d12-4379-b302-d6678dc38dc9"
       (reference "SW5") (unit 1) (value "MX_SW_solder") (footprint "marbastlib-mx:SW_MX_1u")
